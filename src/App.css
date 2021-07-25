@@ -89,7 +89,7 @@ nav {
     padding-left: 1.4rem;
 }
 .social-icons{
-    display: flex;
+    display: none;
 }
 .social-icons a{
         display: block;
