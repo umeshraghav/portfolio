@@ -136,7 +136,7 @@ footer{
  }  
  .header{
  /**/
- background:none;
+color: var(--clr-grey-3);
  }  
  
  .big-heading{
