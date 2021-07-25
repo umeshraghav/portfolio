@@ -35,6 +35,7 @@ body{
     font-size: 0.875rem;
 }
  
+
 a{
     text-decoration: none;
 }
@@ -109,10 +110,51 @@ nav {
    
 }
  
-
+.home-container{
+     padding: 0.5rem;
+}
+ 
+footer{
+    bottom: 0;
+    color: var(--clr-white);
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background: var(--clr-grey-3);
+}
 
   @media  screen and (min-width: 799px) {
-     
+ .home-container{
+    
+    align-items: center;
+    padding: 5rem;
+    justify-content: space-between; 
+       
+ }  
+ .header{
+ /**/
+ background:none;
+ }  
+ 
+ .big-heading{
+ font-size: clamp(40px, 8vw, 80px); 
+   }
+   .myDescription{
+       font-size: 1.87rem;
+       max-width: 50%;
+       text-align: left;
+   }
+.card{
+   
+  
+    padding: 0.5rem;
+    height:2.3rem;
+   
+}
+ 
     .nav-center{
             max-width: 1200px;
             margin: 0 auto;
@@ -158,6 +200,9 @@ nav {
 .social-icons a:hover{
     color : var(--clr-primary-7)
 }
+
+
+
 
   }
 
